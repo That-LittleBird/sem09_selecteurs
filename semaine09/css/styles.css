@@ -59,30 +59,52 @@ nav li:nth-child(2){
 }
 
 /* Exercice 11 */
-
+.exercice11 ul{
+    border: solid 3px red;
+}
 
 /* Exercice 12 */
-
+.exercice12 > ul:hover{
+    border: solid 3px red;
+}
 
 /* Exercice 13 */
-
+.exercice13 img[src$=".jpg"]{
+    border: solid 3px red;
+}
 
 /* Exercice 14 */
-
+nav a:hover{
+    background-color: #BF2A2A;
+    border: solid 3px black;
+    color: black;
+}
 
 /* Exercice 15 */
+.exercice15 h2::selection{
+    background-color: black;
+    color: white;
+}
 
+.exercice15 p::selection{
+    background-color: gray;
+    color: black;
+}
 
 /* Exercice 16 */
-
+.exercice16 p:not([lang="fr"]){
+    color: red;
+}
 
 /* Exercice 17 */
-
+input:checked + label{
+    color: red;
+}
 
 /* Exercice 18 */
-
-
-
+h1 .word :last-child{
+    color: #640101;
+}
 
 
 
